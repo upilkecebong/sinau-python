@@ -31,9 +31,11 @@ def duadigit():
     #len angka ne kudune di ilangi biar bisa di pangggil di bawah
 
 if len(angka)==3 and angka[1]!="0" and angka[1]!="1" and angka[2]!="0":
-    print(se()+" ratus "+ terbilang[angka[1]]+" puluh "+terbilang[angka[2]])
+    print(se()+"ratus "+ terbilang[angka[1]]+"puluh "+terbilang[angka[2]])
+elif len(angka)==3 and angka[1]=="1" and angka[2]!="1" and angka[2]!="0":
+    print(se()+"ratus "+ terbilang[angka[2]] +"belas ")
 elif len(angka)==3 and angka[1]=="1" and angka[2]!="0":
-    print(se()+" ratus "+ se() +" belas ")
+    print(se()+"ratus "+ se() +"belas ")
 elif len(angka)==3 and angka[1]=="0":
     print(se()+"ratus "+ terbilang[angka[1]] + terbilang[angka[2]])
 elif len(angka)==3 and angka[1]=="0" and angka[2]=="0":

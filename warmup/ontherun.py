@@ -11,22 +11,25 @@ def baca(s1,s2):
                     isi += i
                 else:
                     nilai = False
-    # else:
         s1.replace(isi,'')
         s2.replace(isi,'')
         isi = ''
     return s1,s2
 
-if len(s1) == len(s2):
-  for i in s1 and x in s2:
-      if i == x:
-        beda += 1
-elif len(s1) > len(s2):
-  s1,s2=baca(s1,s2)
-  beda = len(s1) + len(s2)
-elif len(s1) < len(s2):
-  s2,s1=baca(s2,s1)
-  beda = len(s1) + len(s2)
+baca(s1,s2)
+print(s1,s2)
+# count = len(s1) + len(s2)
+
+# if len(s1) == len(s2):
+#   for i in s1 and x in s2:
+#       if i == x:
+#         beda += 1
+# elif len(s1) > len(s2):
+#   s1,s2=baca(s1,s2)
+#   beda = len(s1) + len(s2)
+# elif len(s1) < len(s2):
+#   s2,s1=baca(s2,s1)
+#   beda = len(s1) + len(s2)
 
 print(beda)    
 
