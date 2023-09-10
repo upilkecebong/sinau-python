@@ -48,6 +48,4 @@ for i in list_rata:
 
 
 
-
-
 print(time.time() - start_time,"detik")
